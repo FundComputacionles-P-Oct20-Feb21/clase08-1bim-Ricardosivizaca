@@ -23,7 +23,6 @@
 23. Escribir "El valor total a pagar es: " + valorTotal
 24. Fin
 
-// si la edad del usuario es mayor a 30 El valor total a pagar es: 28,4 
-// si la edad de usuario es menor a 30 El valor total a pagar es: 23
-
+// No hay el valor en la variable edad ya que no pido el valor por teclado
+   asi que solo mostrara las suma de las valriables dadas. 
   
