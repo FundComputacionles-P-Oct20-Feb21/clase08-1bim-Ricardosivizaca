@@ -7,3 +7,5 @@
 9.  Fin Mientras"
 10. << n
 11. Fin
+
+//En este caso solo presentara el numero 2 y no entrara la ciclo ya que no es < a 2.
