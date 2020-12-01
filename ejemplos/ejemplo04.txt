@@ -5,6 +5,7 @@
 5.  valorSpotify, d[0,n]
 6.  valorTotal, d[0,n]
 7.  edad, i[0,n]
+8. edad <-- 20 
 8.  descuento, d[0,n]
 9.  porcentaje, d[0,n]
 10. porcentaje <-- 20
@@ -23,6 +24,4 @@
 23. Escribir "El valor total a pagar es: " + valorTotal
 24. Fin
 
-// No hay el valor en la variable edad ya que no pido el valor por teclado
-   asi que solo mostrara las suma de las valriables dadas. 
-  
+// presentara ERROR por q no hay la variable "edad"
