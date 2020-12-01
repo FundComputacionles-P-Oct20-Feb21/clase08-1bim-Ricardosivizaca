@@ -8,4 +8,5 @@
 10. << n
 11. Fin
 
-//presento en pantalla: 3
+//presento en pantalla: 2
+			3
