@@ -12,4 +12,4 @@
 12.  Fin
 
 
-//La salida es El sueldo es : 500 
+//no presentara nada en pantalla 
