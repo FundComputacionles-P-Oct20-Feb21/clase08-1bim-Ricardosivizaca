@@ -1,3 +1,19 @@
+
+
+
+1. Inicio
+2. nombre, x(200)[{1-9},{a-z},{A-Z}, {/}, {BS}]
+3. apellido, x(200)[{1-9},{a-z},{A-Z}, {/}, {BS}]
+4. edad, i[0, n]
+5. cadena final, x(200)[{1-9},{a-z},{A-Z}, {/}, {BS}]
+6. cadena_final <-- ""
+7. contador, i[0, n]
+8. Para(contador<--0, contador <= 4,1) haga
+9.		
+
+
+
+
 // Generar un programa que permita iterar 4 veces 
 // use el ciclo Para
 // en cada iteración debe ingresar nombre, apellido y edad de una persona
@@ -20,4 +36,33 @@
 
 // Promedio de edades: 19.5
 
-
+1. Inicio
+2. contador, i[0, n]
+3. cadenaFinal, x(200)[{1-33},{a-z},{A-Z}, {/}]
+4. nombres, x(200)[{1-33},{a-z},{A-Z}, {/}]
+5. apellidos, x(200)[{1-33},{a-z},{A-Z}, {/}]
+6. cadenaNombre, x(200)[{1-33},{a-z},{A-Z}, {/}]
+7. cadenaApellido, x(200)[{1-33},{a-z},{A-Z}, {/}]
+8. cadenaNombre <-- ""
+9. cadenaApellido <-- ""
+10. cadenaFinal <-- ""
+11. contador <-- 0
+12. promedio, d[0, n]
+13. int edad, i[0, n]
+14. sumaEdad,i[0, n]
+15. sumaEdad<--0
+16. Para(int i <--1, i <= 4, 1) haga
+17.	Escribir "Ingrese su nombre"
+18.	Leer nombres
+19.	Escribir "Ingrese su apellido"
+20.	Leer apellidos
+21.	Escribir "Ingrese su edad"
+22.	Leer edad
+23.	contador <--contador+1
+24.	sumaEdad <-- sumaEdad + edad
+25.	cadenaNombre <-- cadenaNombre+ "Nombre: "+ nombres + "\n"
+26.	cadenaApellido <-- cadenaApellido + "Apellido: "+ apellidos+ "\n"
+27. Fin_Para
+28. promedio <--sumaEdad/contador
+29. Escribir cadenaNombre+"\n"+cadenaApellido+"\nPromedio de edades: "+promedio
+30. Fin

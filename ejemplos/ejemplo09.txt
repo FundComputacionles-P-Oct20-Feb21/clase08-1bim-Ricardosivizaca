@@ -1,3 +1,13 @@
+1. Inicio
+3. cadenaFinal, x(200)[{1-33},{a-z},{A-Z}, {/}]
+4. cadenaFinal <-- ""
+5. Para(i<--5, ((i MOD 5)==0) and (i <= 30), 5) haga
+6.     cadenaFinal <-- cadenaFinal + i + "\n"
+7. Fin_Para
+8. Escribir cadenaFinal
+9. Fin
+
+
 // Generar la serie
 // 5
 // 10
@@ -7,3 +17,4 @@
 // 30
 // Debe usar la operación aritmética MOD y un ciclo
 // repetitivo Para
+
